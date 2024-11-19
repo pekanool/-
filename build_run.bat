@@ -2,8 +2,8 @@
 chcp 1251 > log
 del log
 
-set CPP_FILES="SA.cpp merge_sort.cpp msort.cpp"
-set EXE=msort_korsunova.exe
+set CPP_FILES="io.cpp shell_sorting.cpp main.cpp"
+set EXE=shell_sort.exe
 set CHARSET="-finput-charset=utf-8 -fexec-charset=windows-1251"
 
 if exist %EXE% del %EXE%
